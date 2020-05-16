@@ -453,6 +453,7 @@ var GlnDelay = 0;
 
 //изменение текста на кнопке в соответствие с текущим статусом тренировки. Запуск основного цикла-таймера   
 button.onclick = function() { 
+loadTrainData(); //тест
 //alert(ev("2+2"))
 //alert(V ("<qw6> = 123;<id>=;  <qw4>=32 1 6"))
 	if ((Gl_ShortDescription.trim().length > 0) && (button.firstChild.data == TXT_BTN_NOTSTARTED))
